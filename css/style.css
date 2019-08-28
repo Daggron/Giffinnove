@@ -7,7 +7,7 @@ html,body{
 
 header{
     box-shadow: 2px 2px 10px 10px rgba(0,0,0,0.7)!important;
-    position: absolute;
+    position: fixed;
     z-index: 99999;
     width: 100vw;
 
@@ -32,9 +32,20 @@ section{
 }
 .bg-violet{
     background:  whitesmoke!important;
-    border-bottom: 1 solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
 }
-
+.about-text{
+    color: #919191;
+    letter-spacing: 3px;
+    word-spacing: 6px;
+    font-family: 'Kurale',cursive;
+    line-height: 1.3em;
+}
+.max-size{
+    font-family: 'Kurale', cursive;
+    font-size: 6rem;
+    font-max-size: 6rem;
+}
 .h-80{
     height: 80vh;
     object-fit: cover;
@@ -67,6 +78,16 @@ section{
 .line-top{
     line-height: 5.5em;
 }
+.full-width img{
+    width: 200px;
+}
+
+@media (max-width: 550px) {
+    .full-width img{
+        width: 150px;
+    }
+}
+
 
 #particles-js{
     position: absolute;
@@ -467,4 +488,24 @@ section{
 footer{
     margin-top: 2%;
     font-size: 2em;
+}
+
+
+.social ul li{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+.social ul li a{
+    font-size: 2rem;
+    margin: 3%;
+    color: #919191;
+    text-decoration: none;
+}
+
+.social ul li a:hover{
+    color: #468beb;
 }

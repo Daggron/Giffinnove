@@ -33,7 +33,9 @@
     <!-- Animation on scroll library  -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" >  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" >
+
+      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 
     <!-- Animation on scroll js framework cdn -->
@@ -54,18 +56,18 @@
 
     <link rel="shortcut icon" href="./images/apple.png">
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Kurale&display=swap" rel="stylesheet">
 
     <script src="https://cdn.jsdelivr.net/npm/typeit@v6/dist/typeit.min.js" > </script>
    
   </head>
   <body>
 
-    <header>
+    <header class="navbar-fixed-top">
             <nav class="navbar navbar-expand-lg navbar-light bg-violet">
                     <a class="navbar-brand" href="#">
-                        <img src="./images/apple.png" width="40px">
-                        Navbar
+<!--                        <img src="./images/apple.png" width="40px">-->
+                        Gff Innovation
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
@@ -115,13 +117,23 @@
              </div>
              <div class="container">
                  <div class="row">
-                     <div class="col-sm-12">
-                            <img src="./images/a1.png" class="rounded ml-3" alt="...">
+
+                           <div class="col col-lg-3 col-sm-5 mx-auto full-width">
+                               <img src="./images/a1.png" class="rounded ml-3" alt="...">
+                           </div>
+                         <div class="col col-lg-3 col-sm-5 mx-auto full-width">
                             <img src="./images/a2.png" class="rounded ml-3" alt="...">
+                         </div>
+                         <div class="col col-lg-3 col-sm-5 mx-auto full-width">
+
                             <img src="./images/a3.png" class="rounded ml-3" alt="...">
+                         </div>
+
+                         <div class="col col-lg-3 col-sm-5 mx-auto full-width">
                             <img src="./images/a4.png" class="rounded ml-3" alt="...">
+                         </div>
                      </div>
-                 </div>
+
              </div>
     </section>
 
@@ -135,14 +147,17 @@
             </div>
         </div>
 
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div id="left-col collapse">
                     <div class="hj">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda animi incidunt minus veritatis ratione voluptas, illum sequi, ea eos ipsum laborum saepe aliquam! Officia labore molestias, natus exercitationem provident veritatis.
+                       <div class="col col-sm-10 col-lg-12 about-text">
+                          <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                          </p>
+                       </div>
                     </div>
                 </div>
-                <div class="col-sm-12">
+                <div class="col-sm-12 my-5 py-5">
                     <div class="image-box">
                         <img src="./images/programing.png">
                     </div>
@@ -155,10 +170,10 @@
             <div class="container">
               <div class="row" >
                 <div class="col-lg-10 mx-auto text-center text-white">
-                  <h1 class="text-white emsize">Giffinnove Work
+                  <h1 class="text-white max-size">Our Inventions
                   </h1>
                   <p class="text-white">
-                    Here is the representation and description of our work
+                   Here are some of our inventions we did at gff innovations
                   </p>
                 </div>
               </div>
@@ -172,11 +187,11 @@
                     data-track="virtual"
                   >
                     <img
-                      src="./images/mast.png"
+                      src="./images/calculator.jpg"
                       alt="virtual"
                       style="height: 250px; width: 250px;"
                     />
-                    <div class="title mt-1">Lorem Ipsum</div>
+                    <div class="title mt-1">MOKSH</div>
                     <div class="subtitle mt-1">Learn More</div>
                   </button>
                   <button
@@ -187,11 +202,11 @@
                     data-track="augmented"
                   >
                     <img
-                      src="images/mast.png"
+                      src="./images/wiki.jpg"
                       alt="augmented"
                       style="height: 250px; width: 250px;"
                     />
-                    <div class="title mt-1">Lorem Ipsum</div>
+                    <div class="title mt-1">e-DeWeeder</div>
                     <div class="subtitle mt-1">Learn More</div>
                   </button>
                   <button
@@ -202,47 +217,42 @@
                     data-track="iot"
                   >
                     <img
-                      src="images/mast.png"
+                      src="./images/memory-game2.jpg"
                       alt="IoT"
                       style="height: 250px; width: 250px;"
                     />
-                    <div class="title mt-1">Lorem Ipsum</div>
+                    <div class="title mt-1">e-Pancreas</div>
                     <div class="subtitle mt-1">Learn More</div>
                   </button>
                   <button
-                    class="btn col-lg-4 col-md-6 track-item"
+                    class="btn col-lg-6 col-md-6 track-item"
                     type="button"
                     data-toggle="modal"
                     data-target="#trackModal4"
                     data-track="artificial"
                   >
                     <img
-                      src="images/mast.png"
+                      src="./images/pixel.jpg"
                       alt="AI"
                       style="height: 250px; width: 250px;"
                     />
-                    <div class="title mt-1">Lorem Ipsum</div>
+                    <div class="title mt-1">BhuGoal</div>
                     <div class="subtitle mt-1">Learn More</div>
                   </button>
+
                   <button
-                    class="btn col-lg-4 col-md-6"
-                    style="background-color: white; text-align: center;"
-                  >
-                    <img src="images/mast.png" alt="logo" style="max-width: 100%;" />
-                  </button>
-                  <button
-                    class="btn col-lg-4 col-md-6 track-item"
+                    class="btn col-lg-6 col-md-6 track-item"
                     type="button"
                     data-toggle="modal"
                     data-target="#trackModal5"
                     data-track="bigdata"
                   >
                     <img
-                      src="images/mast.png"
+                      src="./images/quote-machine.jpg"
                       alt="Big Data"
                       style="height: 250px; width: 250px;"
                     />
-                    <div class="title mt-1">Lorem Ipsum</div>
+                    <div class="title mt-1">The Pied Piper</div>
                     <div class="subtitle mt-1">Learn More</div>
                   </button>
                  
@@ -264,15 +274,11 @@
                   <div class="d-flex">
                     <div class="modal-text">
                       <div class="modal-header">
-                        <span class="modal-title">Augmented Reality</span>
+                        <span class="modal-title">Moksh</span>
                       </div>
                       <div class="modal-body">
-                          <img src="./images/mast.png">
-                        Integration of digital information with the user environment
-                        in real time.written in special 3D programs that allow the
-                        developer to tie animation or contextual digital information
-                        in the computer program to an augmented reality marker in the
-                        real world.
+                          <img src="./images/calculator.jpg">
+                          GFF Innovations - "MOKSH" a machine which traverses an agriculture farm post-harvest of a rice crop. It picks the rice straw from the ground on a real-time basis and converts the rice-straw into a powder form.
                       </div>
                       <div class="modal-footer">
                        
@@ -318,15 +324,11 @@
                   <div class="d-flex">
                     <div class="modal-text">
                       <div class="modal-header">
-                        <span class="modal-title">Augmented Reality</span>
+                        <span class="modal-title">e-DeWeeder</span>
                       </div>
                       <div class="modal-body">
-                            <img src="./images/mast.png">
-                        Integration of digital information with the user environment
-                        in real time.written in special 3D programs that allow the
-                        developer to tie animation or contextual digital information
-                        in the computer program to an augmented reality marker in the
-                        real world.
+                            <img src="./images/wiki.jpg">
+                          The unwanted elements in any way has always led to troubles and unnecessary consequences. Similarly with new advancements and changing soil conditions with the crops, the gold of earth comes the unwanted weeds. E- Deweeder the one which saves the manual load of a farmer and elimates weeds using sensors.
                       </div>
                       <div class="modal-footer">
                         <button
@@ -380,14 +382,11 @@
                   <div class="d-flex">
                     <div class="modal-text">
                       <div class="modal-header">
-                        <span class="modal-title">Internet of Things</span>
+                        <span class="modal-title">e-Pancreas</span>
                       </div>
                       <div class="modal-body">
-                            <img src="./images/mast.png">
-                        A world of devices connected by internet opens up
-                        opportunities for us that were previously unthinkable.
-                        Innovative apps can be built that can allow devices to share
-                        data and take intelligent decisions.
+                            <img src="./images/memory-game2.jpg">
+                          Why be worried about your insulin level every time when you can let e-pancreas do the work for you. E-pancreas a wearable non-invasive continuous glucose monitoring device which lets you know your insulin level anytime you want. With an automated insulin delivery system which works painlessly.
                       </div>
                       <div class="modal-footer">
                         <button
@@ -441,15 +440,11 @@
                   <div class="d-flex">
                     <div class="modal-text">
                       <div class="modal-header">
-                        <span class="modal-title">Artificial Intelligence</span>
+                        <span class="modal-title">BhoGoal - Predicting Moods of INDIA!</span>
                       </div>
                       <div class="modal-body">
-                            <img src="./images/mast.png">
-                        From bots, to personal assistants, and shopping automation,
-                        what the future holds for artificial intelligence can be
-                        described for sure with at least one word; Exciting. Our
-                        machines and devices are getting faster, more efficient and
-                        slowly learning to do things on their own.
+                            <img src="./images/pixel.jpg">
+                          With its accuracy and precision, who would need the skies to turn gray on sunny days to predict rains? Bhugol, with a revolutionary technology tells you the exact time and date of the incoming of rains. Saving the crops, farmers and the layman from the wrath of thunders!
                       </div>
                       <div class="modal-footer">
                         <button
@@ -503,15 +498,11 @@
                   <div class="d-flex">
                     <div class="modal-text">
                       <div class="modal-header">
-                        <span class="modal-title">Big Data And Analytics</span>
+                        <span class="modal-title">The Pied Piper</span>
                       </div>
                       <div class="modal-body">
-                            <img src="./images/mast.png">
-                        Big data analytics is the often complex process of examining
-                        large and varied data sets -- or big data -- to uncover
-                        information including hidden patterns, unknown correlations,
-                        market trends and customer preferences that can help
-                        organizations make informed business decisions.
+                            <img src="./images/quote-machine.jpg">
+                          Running behind rats and rodents brings a pain in the back. Hard to catch and leaves behinds harmful bacteria as well. The cage for rodents is now outdated as for now the rats have deviced a better escape mechanism. The E-pinjra brings out a new way, a technological advancement in catching these rodents effectively.
                       </div>
                       <div class="modal-footer">
                         <button
@@ -583,7 +574,80 @@
                                 </a>
                         </div>
                     </div>
-                        <div class="mapouter"><div class="gmap_canvas"><iframe width="1080px" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Chitkara&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.bitgeeks.net/embed-google-map/">embed map in google maps</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1080px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1080px;}</style></div>
+                    <div class="row">
+
+
+                    <div class="social  col-sm-10 col-lg-5">
+                        <p class="about-text text-center" style="font-size: 2rem">
+                          Social Handles
+                        </p>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                <i class="fa fa-facebook">
+
+                                </i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+
+
+                                <i class="fa fa-linkedin">
+
+                                </i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-instagram">
+
+                                    </i>
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-youtube">
+
+                                    </i>
+                                </a>
+
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-6 col-sm-10 mx-auto">
+                        <p class="about-text text-center" style="font-size: 2rem">
+                            Feel free to write
+                        </p>
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputEmail4">Email</label>
+                                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputPassword4">Name</label>
+                                    <input type="text" class="form-control" id="inputPassword4" placeholder="John Doe">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress">Query</label>
+                                <input type="text" class="form-control" id="inputAddress" placeholder="">
+                            </div>
+
+
+
+                            <button type="submit" class="btn btn-primary">Send </button>
+                        </form>
+
+                    </div>
+                    </div>
+
+
+<!--
+ <div class="mapouter"><div class="gmap_canvas"><iframe width="1080px" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Chitkara&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.bitgeeks.net/embed-google-map/">embed map in google maps</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1080px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1080px;}</style></div>-->
                 </div>
             </div>
         </div>
