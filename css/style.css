@@ -502,13 +502,18 @@ footer{
     font-size: 2em;
 }
 
-
+.social{
+    margin-left: 3%;
+}
 .social ul li{
-    display: flex;
+    display: inline-block;
     justify-content: center;
     justify-items: center;
     align-items: center;
     align-content: center;
+    flex-direction: column;
+    margin: 3%;
+    text-align: center;
 }
 
 .social ul li a{
